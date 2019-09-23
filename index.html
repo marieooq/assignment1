@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment1</title>
+    <style>
+      #btn {
+        background-color: blue;
+        color: #fff;
+        font-size: 3em;
+      }
+
+      #btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <!-- <base href="https://www.w3schools.com/images/" target="_blank" /> -->
+    <!-- <base href="https://marieotaki.com" target="_blank" /> -->
+
+    <noscript>
+      JavaScript is not supported or is disabled in browser!
+    </noscript>
+    <meta name="keywords" content="marie, otaki, developer" />
+    <meta name="description" content="Create sorting algorithms" />
+    <meta name="author" content="Marie Otaki" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <h1>This is Assignment1</h1>
+    <h2>Here is the result.</h2>
+    <h3>Show the absolute base URI of the document</h3>
+    <p id="showBase"></p>
+    <h3>Show the documents cookie</h3>
+    <p id="showCookie"></p>
+    <h3>Show the documents doctype</h3>
+    <p id="showDoctype"></p>
+    <h3>Show the mode used by the browser</h3>
+    <p id="showBrowserMode"></p>
+    <h3>Show the relative URI of the document</h3>
+    <p id="showRelativeURI"></p>
+    <h3>Show the DOM implementation</h3>
+    <p id="showDOMimplementation"></p>
+    <h3>Show the documents encoding type</h3>
+    <p id="showEncodeingType"></p>
+    <h3>Show if error checking is enforced</h3>
+    <p id="showErrorChecking"></p>
+    <h3>Show the Title of the document</h3>
+    <p id="showTitle"></p>
+    <h3>Show all Javascript in an Input box</h3>
+    <form action="#">
+      <input
+        type="text"
+        placeholder="Input something."
+        size="100px"
+        oninput="onInput()"
+        id="inputArea"
+      />
+    </form>
+    <p id="showInput"></p>
+
+    <button id="btn" onmouseenter="onMouseEnter()" onmouseout="onMouseOut()">
+      button
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
